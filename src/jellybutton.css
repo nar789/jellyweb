@@ -1,0 +1,25 @@
+.button {
+    background: #8a56ac;
+    width: 250px;
+    height: 40px;
+    padding: 4px 0;
+    border-radius: 10px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+
+
+
+.button2 {
+    background: #d47fa6;
+    width: 250px;
+    height: 40px;
+    padding: 4px 0;
+    border-radius: 10px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    margin: auto;
+}
