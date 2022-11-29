@@ -10,7 +10,7 @@ function App() {
     <Canvas>
       <OrbitControls />
       <directionalLight intensity={0.6} />
-      <ambientLight intensity={3} />
+      <ambientLight intensity={1} />
       <Happy />
     </Canvas>
   );

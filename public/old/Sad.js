@@ -12,9 +12,9 @@ export function Sad(props) {
   return (
     <group ref={group} {...props} dispose={null}>
       <group name="Scene">
-        <group name="sad" position={[0.02, -0.01, -0.02]} rotation={[Math.PI / 2, 0, 0]} scale={0.01}>
+        <group name="sad" rotation={[Math.PI / 2, 0, 0]} scale={0.01}>
           <primitive object={nodes.mixamorigHips} />
-          <skinnedMesh name="Rabbit" geometry={nodes.Rabbit.geometry} material={materials.Rabbit} skeleton={nodes.Rabbit.skeleton} />
+          <skinnedMesh name="Rabbit001" geometry={nodes.Rabbit001.geometry} material={materials['Rabbit.001']} skeleton={nodes.Rabbit001.skeleton} />
         </group>
       </group>
     </group>
