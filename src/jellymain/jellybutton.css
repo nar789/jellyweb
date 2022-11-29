@@ -1,0 +1,25 @@
+.button {
+    background: rgba(0, 132, 255, 0.5);
+    width: 250px;
+    height: 40px;
+    padding: 4px 0;
+    border-radius: 10px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+
+
+
+.button2 {
+    background: rgba(0, 33, 65, 0.5);
+    width: 250px;
+    height: 40px;
+    padding: 4px 0;
+    border-radius: 10px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    margin: auto;
+}

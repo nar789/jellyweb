@@ -1,17 +1,18 @@
 import { Canvas } from '@react-three/fiber';
-import { Box, OrbitControls } from '@react-three/drei';
-import { Happy } from './Happy';
+import { OrbitControls } from '@react-three/drei';
 import './App.css';
-import { Sad } from './Sad';
+import { Chrismas } from './Chrismas';
 
 function App() {
 
   return (
     <Canvas>
       <OrbitControls />
-      <directionalLight intensity={0.6} />
-      <ambientLight intensity={1} />
-      <Happy />
+      <ambientLight intensity={0.05} />
+      <pointLight position={[0,-3,-8]} color={0xF9FF57} intensity={0.5} distance={5} power={10}/>
+      <pointLight position={[2,0,2]} color={0x4876FF} intensity={2} />
+      <pointLight position={[-2,0,2]} color={0xD84EFF} intensity={1} distance={20} />
+      <Chrismas />
     </Canvas>
   );
 }
