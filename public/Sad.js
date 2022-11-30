@@ -12,9 +12,11 @@ export function Model(props) {
   return (
     <group ref={group} {...props} dispose={null}>
       <group name="Scene">
-        <group name="sad" position={[0.02, -0.01, -0.02]} rotation={[Math.PI / 2, 0, 0]} scale={0.01}>
-          <primitive object={nodes.mixamorigHips} />
-          <skinnedMesh name="Rabbit" geometry={nodes.Rabbit.geometry} material={materials.Rabbit} skeleton={nodes.Rabbit.skeleton} />
+        <group name="Circle">
+          <group name="Armature" rotation={[Math.PI / 2, 0, 0]} scale={0.5}>
+            <primitive object={nodes.mixamorigHips} />
+            <skinnedMesh name="rabbit001" geometry={nodes.rabbit001.geometry} material={materials['Material.001']} skeleton={nodes.rabbit001.skeleton} />
+          </group>
         </group>
       </group>
     </group>
